@@ -1,0 +1,25 @@
+.login {
+    margin-left: 30%;
+    margin-top: 200px;
+    width: 30%;
+}
+
+.login_bob {
+    height: 100px;
+    width: 100%;
+}
+
+
+.register {
+    margin-top: 200px;
+}
+
+.bob_register {
+    height: 100px;
+    width: 100%;
+}
+
+.form-ragistration input {
+    border-radius: 0;
+    margin-bottom: -1px;
+}

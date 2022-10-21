@@ -1,0 +1,249 @@
+.img_news{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+.almonnews{
+    -webkit-transform: rotate(317deg);
+
+    color: #a09595;
+    top: 250px;
+    font-size: 50px;
+    position: absolute;
+}
+.almonnews1{
+    -webkit-transform: rotate(-317deg);
+     right: 10px;
+    color: #a09595;
+    top: 250px;
+    font-size: 50px;
+    position: absolute;
+}
+.bob_news1{
+    width: 100%;
+    height: 3000px;
+    background-color: bisque;
+}
+.teh_kotak{
+    width: 100px;
+     margin-left: 370px;
+}
+
+.bob_news{
+    border-radius: 10px;
+    width: 70%;
+    position: absolute;
+    top:550px ;
+    left: 15%;
+    background-color: rgb(255, 255, 255);
+}
+.text_news{
+    text-shadow: 0 1px 0 #fff, 0 2px 0 #bbb, 0 3px 0 #aaa, 0 4px 0 #aaa, 0 5px 0 #999, 0 6px 1px rgb(64, 61, 61), 0 0px 3px rgb(64, 61, 61), 0 1px 3px rgb(64, 61, 61), 0 3px 5px rgb(64, 61, 61), 0 5px 10px rgb(64, 61, 61), 0 5px 20px rgb(64, 61, 61); 
+   text-align: center;
+   font-size: 40px;
+   margin: 50px;
+}
+ 
+.text_news1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:rgb(0, 0, 0) ;
+    font-size: 25px;
+}
+
+.news_flex{
+   display: flex;
+
+}
+.news_satu{
+    width:70%;
+    height: 200px;
+}
+.news_dua{
+    object-fit: cover;
+    width:30%;
+    height:200px;
+}
+.text_new{
+  font-family: 'Times New Roman', Times, serif; 
+  font-size:  20px;
+  text-align: center;
+}
+.texxt_new_bob{
+    text-align: center;
+    color: #E4A9A8;
+    font-size: 35px;
+}
+.bobnews_satu{
+    width:30%;
+    height: 200px;
+    object-fit: cover;
+}
+.bobnews_dua{
+    width:70%;
+    height:200px;
+}
+
+.bob5{
+    flex: 1px;
+    margin: 40px;
+    background-color: black;
+    height: 1px;
+}
+.href{
+    width: 50px;
+    text-decoration: none;
+}
+
+
+.bob_5{
+background-color: rgba(104, 91, 91, 0.686);
+width: 100%;
+height: 100px; ;
+}
+.title-word {
+    animation: color-animation 4s linear infinite;
+}
+  
+.title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+}
+  
+.title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+}
+  
+.title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+}
+  
+.title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+}
+  
+@keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+}
+  
+/* Here are just some visual styles. 🖌 */
+  
+.container {
+    display: grid;
+    place-items: center;  
+    text-align: center;
+    height: 100px;
+    width:100%;
+    
+}
+  
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
+.imgnews{
+    width: 100px; 
+    height: 100px;
+}
+.search-form
+{
+    position: relative;
+}
+
+nput:focus::placeholder
+{
+    color: transparent;
+}
+/* 
+input
+{
+    width: 100%;
+    height: 51.6px;
+} */
+
+.screenSearchText
+{
+    border: 0;
+    clip: rect(1px,1px,1px,1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal;
+}
+
+#fname
+{
+    border: 1px solid #f8f8f8 ;
+    background-color: #f8f8f8;
+    width: 100%;
+    line-height: 1;
+    padding: 16px 40px 16px 20px;
+    flex: 1;
+}
+
+.search-submit
+{
+    font-size:  0;
+    line-height: 0;
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3;
+    background: 0 0;
+    border: none;
+    padding: 0;
+}
+.search-submit:hover
+{
+    cursor: pointer;
+}
+
+.burger{
+    margin: auto;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 200px;
+}
+.bun  {
+    height: 180px;
+    width: 180px;
+    border-radius:100px 100px 0 0 ;
+    background:#f4a000;
+}
+.burger.bun .bottom{
+    border-radius: 0 0 100px 100px ;
+}
+
+.burger .cosmic-fill{
+    filter: contrast(200%);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}

@@ -1,0 +1,284 @@
+.the_littel {
+    width: 100%;
+    height: 2000px;
+    background-color: bisque;
+    box-flex: cover;
+
+}
+
+.img_bobnews {
+    width: 100%;
+    height: 600px;
+
+}
+
+.the_littel4 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(69, 64, 57);
+    font-size: 30px;
+    text-align: center;
+}
+
+.the_littel4 {
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 450px;
+    width: 200px;
+    height: 100px;
+}
+
+.the_littel .the_littel1 {
+    top: 450px;
+    left: 200px;
+    position: absolute;
+    border-radius: 15px;
+    height: 800px;
+    width: 75%;
+    background-color: rgb(255, 255, 255);
+}
+
+.the_littel_bob {
+    position: relative;
+    padding-top: 200px;
+    margin-left: 200px;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.the_littel_boy {
+    background-color: rgb(234, 203, 49);
+    width: 400px;
+    height: 400px;
+    margin-top: -20px;
+    margin-left: 660px;
+    border-radius: 10px;
+}
+
+.the_littel_boy .the_littel-boy {
+    width: auto;
+    height: 120px;
+}
+
+.text_bobnews {
+    left: 500px;
+    font-size: 40px;
+    bottom: 250px;
+    color: rgba(153, 142, 129, 0.626);
+    margin-left: 100px;
+    position: absolute;
+}
+
+.text-littel-bo p {
+
+    background-color: aqua;
+    width: 100px;
+    height: 30px;
+}
+
+.the_littel-text {
+    color: antiquewhite;
+    text-align: center;
+
+}
+
+.the_littel_boy .the_littel-boy1 {
+    margin-left: 190px;
+    height: 280px;
+    width: 140px;
+
+
+}
+
+.the_littel_2 {
+    margin-left: 28px;
+    -webkit-transform: rotate(-270deg);
+
+}
+
+.the_littel_boy .the_littel-boy2 p {
+    width: 289px;
+    height: 100px;
+    padding-top: 40px;
+    color: antiquewhite;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.the_littel_boy .the_littel-boy2 {
+    margin-top: -280px;
+    margin-left: 330px;
+    width: 70px;
+    height: 280px;
+}
+
+.the_littel_boy .the_littel-boy1 p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: antiquewhite;
+
+}
+
+.the_littel_boy1 {
+    border-radius: 10px;
+    width: 350px;
+    height: 350px;
+    margin-top: -280px;
+    margin-left: 500px;
+}
+
+.the_littel_3 span {
+    float: left;
+    left: 0;
+    font-size: 40px;
+}
+
+.the_littel_3 p {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(60, 55, 55);
+    font-size: 30px;
+
+
+}
+
+.the_littel_3 {
+    border-radius: 10px;
+    margin-left: 50px;
+    background-color: rgb(243, 241, 238);
+    width: 400px;
+    height: 400px;
+    margin-top: -460px;
+}
+
+.the_littel_bob_3 {
+    border-radius: 10px;
+    margin-top: 100px;
+    ;
+    background-color: rgb(201, 227, 238);
+    width: 100%;
+    height: 100px;
+}
+
+.the_littel_bob-3 {
+    margin-left: 400px;
+    width: 500px;
+    height: 100px;
+}
+
+.the_littel_bob_3 h1 {
+    color: rgb(149, 146, 146);
+    font-family: tahoma;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.5;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    width: 550px;
+}
+
+.the_littel_bob_3 h1 span {
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.the_littel_bob_3 .message {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(123, 118, 118);
+    display: block;
+    font-weight: 900;
+    overflow: hidden;
+    position: absolute;
+    padding-left: 0.5rem;
+    top: 0.2rem;
+    left: 270px;
+    animation: openclose 5s ease-in-out infinite;
+}
+
+.word1,
+.word2,
+.word3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@keyframes openclose {
+    0% {
+        top: 0.2rem;
+        width: 0;
+    }
+
+    5% {
+        width: 0;
+    }
+
+    15% {
+        width: 230px;
+    }
+
+    30% {
+        top: 0.2rem;
+        width: 230px;
+    }
+
+    33% {
+        top: 0.2rem;
+        width: 0;
+    }
+
+    35% {
+        top: 0.2rem;
+        width: 0;
+    }
+
+    38% {
+        top: -4.5rem;
+
+    }
+
+    48% {
+        top: -4.5rem;
+        width: 190px;
+    }
+
+    62% {
+        top: -4.5rem;
+        width: 190px;
+    }
+
+    66% {
+        top: -4.5rem;
+        width: 0;
+        text-indent: 0;
+    }
+
+    71% {
+        top: -9rem;
+        width: 0;
+        text-indent: 5px;
+    }
+
+    86% {
+        top: -9rem;
+        width: 285px;
+    }
+
+    95% {
+        top: -9rem;
+        width: 285px;
+    }
+
+    98% {
+        top: -9rem;
+        width: 0;
+        text-indent: 5px;
+    }
+
+    100% {
+        top: 0;
+        width: 0;
+        text-indent: 0;
+    }
+}
