@@ -366,7 +366,7 @@
 }
 
 .inpu {
-    position: absolute;
+    /* position: absolute; */
     left: 100px;
     top: 100px;
     transform: translate(-50%, -50%);

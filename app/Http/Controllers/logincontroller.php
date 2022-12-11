@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Validator;
 class logincontroller extends Controller
 {   
   public function login ()
@@ -13,27 +14,35 @@ class logincontroller extends Controller
     ]);
   }
 
+  public function reloadCaptcha()
+  {
+      return response()->json(['captcha'=> captcha_img()]);
+  }
+
  public function authenticate( Request $request)
  {
    $credentials = $request->validate([
      // :dns
      'email'=>'required | email', 
      'password'=>'required',
+     'captcha' => ['required','captcha'],
     ]);
-    // return Auth::attempt($credentials);
-  //  return redirect()->intended('/dashboard');
- 
+    // dd ($credentials);
+  //    validator([
+   
+  //     'captcha' => ['required','captcha'],
+  // ]);
+
   if (Auth::attempt($credentials)) {
     return redirect()->intended('/dashboard');
     $request->session()->regenerate(); 
   }
 
   return back()->with('loginerror','login failed!!') ;
-  // dd ('berhasil');
+}
 // tamba captcha untuk login
 // tambah category
 // tambah userr di dashbord
-}
 public function logout ()
   {
     Auth::logout();

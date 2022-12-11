@@ -34,7 +34,7 @@ Route::get('/roti', [Controller_navbar::class, 'menu',]);
 
    
 Route::get('/news', [news::class, 'news',])->name('news');
-Route::get('/bobnews', [news::class, 'bobnews',]);
+Route::get('/bobnews', [news::class, 'bobnews']);
 
 
 Route::get('/dashboard', [Controller_navbar::class, 'dashboard',]);
@@ -43,9 +43,9 @@ Route::get('/dashboard', [Controller_navbar::class, 'dashboard',]);
 // Route::get('/keranjang', function () {
     // return view('bob');
 // });
-
 Route::get('/login', [logincontroller::class, 'login']);
 Route::post('/login',[loginController::class,'authenticate' ]);
+// Route::post('/login',[loginController::class,'Validator' ]);
 Route::post('/logout',[LoginController::class, 'logout' ]);
 
 // Route::get('/dashboard',function (){
@@ -102,8 +102,13 @@ Route::get('/dashboard/posts/checkSlug',[DashboardPost::class,'checkSlug'])
 
 
 
+Route::get('/reload-captcha', [App\Http\Controllers\Auth\RegisterController::class, 'reloadCaptcha']);
 
 
 
 
+
+// Auth::routes();
+
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
